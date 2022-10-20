@@ -1,0 +1,16 @@
+h1 {
+  color: whitesmoke;
+  text-align: center;
+  background-color: rgb(104, 104, 104);
+  text-shadow: 2px 2px 2px rgb(99, 99, 207);
+}
+
+.container {
+  background-color: rgb(66, 71, 71);
+  border-radius: 8px;
+}
+
+p,
+label {
+  color: whitesmoke;
+}
