@@ -8,12 +8,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  { path: "", component: TableroComponent },
+  { path: '', component: TableroComponent },
   { path: "login", component: LoginComponent },
-  { path: "registrar", component: RegistroComponent },
+  { path: "registrarse", component: RegistroComponent },
   { path: "configuracion", component: ConfiguracionComponent },
-  { path: "cliente/editar", component: EditarClientesComponent },
-  { path: "**", component: NoEncontradoComponent }
+  { path: "cliente/editar/:id", component: EditarClientesComponent },
+  { path: "**", component: NoEncontradoComponent },
 ];
 
 @NgModule({
